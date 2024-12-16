@@ -51,4 +51,4 @@ jobs:
       # 7. Push Docker Image to Docker Hub
       - name: Push Docker Image
         run: |
-          docker push ${{ secrets.DOCKER_USER }}/msa_svc_main:${{ env.DOCKER_TAG }}
+          docker push cactus2378/msa_svc_main:${{ env.DOCKER_TAG }}
